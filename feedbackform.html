@@ -1,0 +1,42 @@
+
+<html>
+<head>
+<title>Feedback Form</title>
+</head>
+<body>
+<h1 align="center"><b>Feedback Form<b></h1>
+<form>
+<label>Name of Applicant</label>
+<input type="text"  required placeholder="Enter your Name"><br><br>
+<label>Father's Name</label>
+<input type="text" placeholder="Enter Name"><br><br>
+<label> Mother's Name</label>
+<input type="text" placeholder="Enter  Name"><br><br>
+<label>Phone number</label>
+<input type="number" ><br><br>
+<label>Date of Birth</label>
+<input type="date"><br><br>
+<label>Gender</label>
+<input type="radio"  name="a" required>MALE
+<input type="radio"  name="a">FEMALE
+<input type="radio" name="a">OTHERS
+<br><br>
+<label>Email</label>
+<input type="email" required  ><br><br>
+<label>Course</label>
+<input list="courses" placeholder="select your course"><br><br>
+<datalist id="courses">
+<option>select your course</option>
+<option>FULL STACK DEVELOPER</option>
+<option>PYTHON FULL STACK</option>
+<option>JAVA FULL STACK</option>
+<option>DATA SCIENCE</option></datalist><br>
+<label> write your Feedback</label>
+<input type="text"  required >
+<br><br>
+<label>Rate us</label>
+<input type="range" requird min="1" max="5">
+<input type="submit" name="submit">
+<input type="reset" name="cancel">
+</form>
+</body></html>
